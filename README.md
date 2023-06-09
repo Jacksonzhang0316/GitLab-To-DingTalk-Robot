@@ -2,10 +2,10 @@
 
 ### 项目介绍
 
-由于钉钉官方中的GitLab群聊机器人对GitLab的支持不够完善，恰好公司有这方面的消息推送需求，所以自己写了一个。我将支持尽可能多的GitLab Webhook事件，包括push、merge
-request、issue、pipeline等等，目前还只支持pipeline。
+由于钉钉官方中的GitLab群聊机器人对GitLab的支持不够完善，恰好公司有这方面的消息推送需求，所以自己写了一个。我将支持尽可能多的GitLab Webhook事件，包括push、merge、request、issue、pipeline等等，目前还只支持pipeline。
 GitLab-To-DingTalk-Robot接收到来自GitLab的Webhook请求后，会将请求中的数据转换成钉钉自定义机器人支持的格式，然后发送给钉钉机器人。
 目前还只支持Markdown风格的消息，后续会支持其他风格的消息。
+
 ---
 
 ### 编译与部署
@@ -27,11 +27,3 @@ GitLab-To-DingTalk-Robot接收到来自GitLab的Webhook请求后，会将请求�
    http://xxx.xxx.xxx.xxx:8989/webhook/pipline/
    ```
 9. 保存设置，测试Webhook是否生效
-
----
-
-### 接口详情
-流水线事件：
-```text
-http://xxx.xxx.xxx.xxx:8989/webhook/pipline/
-```
