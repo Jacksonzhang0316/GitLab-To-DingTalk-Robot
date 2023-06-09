@@ -31,4 +31,4 @@ GitLab-To-DingTalk-Robot接收到来自GitLab的Webhook请求后，会将请求�
 ---
 
 ### 浏览
-![image](https://github.com/Jacksonzhang0316/GitLab-To-DingTalk-Robot/assets/46066855/27bfd455-b2b2-4354-8d1b-31587787994c)
+![20230609215934](https://github.com/Jacksonzhang0316/GitLab-To-DingTalk-Robot/assets/46066855/2066b8dd-02ef-4d5d-8ebf-0496ad612c5e)
