@@ -1,4 +1,4 @@
-package top.waterstone.gitlab.gitlab.dto;
+package top.codetraveler.jacksonzhang.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

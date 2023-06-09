@@ -1,13 +1,13 @@
-package top.waterstone.gitlab.gitlab;
+package top.codetraveler.jacksonzhang;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GitlabApplication {
+public class GitLabRobotApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GitlabApplication.class, args);
+		SpringApplication.run(GitLabRobotApplication.class, args);
 	}
 
 }

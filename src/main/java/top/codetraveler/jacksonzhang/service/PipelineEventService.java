@@ -1,4 +1,4 @@
-package top.waterstone.gitlab.gitlab.service;
+package top.codetraveler.jacksonzhang.service;
 
 import com.alibaba.fastjson2.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,8 +8,8 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import top.waterstone.gitlab.gitlab.constant.DingTalkMsgType;
-import top.waterstone.gitlab.gitlab.dto.PipelineEventDTO;
+import top.codetraveler.jacksonzhang.constant.DingTalkMsgType;
+import top.codetraveler.jacksonzhang.dto.PipelineEventDTO;
 
 @Service
 public class PipelineEventService {

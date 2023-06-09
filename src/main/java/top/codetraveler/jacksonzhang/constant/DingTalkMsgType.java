@@ -1,4 +1,4 @@
-package top.waterstone.gitlab.gitlab.constant;
+package top.codetraveler.jacksonzhang.constant;
 
 public class DingTalkMsgType {
 

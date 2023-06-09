@@ -1,11 +1,11 @@
-package top.waterstone.gitlab.gitlab.controller;
+package top.codetraveler.jacksonzhang.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import top.waterstone.gitlab.gitlab.dto.PipelineEventDTO;
-import top.waterstone.gitlab.gitlab.service.PipelineEventService;
+import top.codetraveler.jacksonzhang.dto.PipelineEventDTO;
+import top.codetraveler.jacksonzhang.service.PipelineEventService;
 
 @RestController
 public class WebhookController {
