@@ -27,6 +27,7 @@ GitLab-To-DingTalk-Robot接收到来自GitLab的Webhook请求后，会将请求�
    http://xxx.xxx.xxx.xxx:8989/webhook/pipline/
    ```
 9. 保存设置，测试Webhook是否生效
+10. sqh
 
 ---
 
